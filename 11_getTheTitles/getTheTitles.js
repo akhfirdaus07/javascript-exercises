@@ -1,4 +1,7 @@
-const getTheTitles = function() {
+const getTheTitles = function(str) {
+    return str.map(element => {
+        return element.title
+    });
 
 };
 
